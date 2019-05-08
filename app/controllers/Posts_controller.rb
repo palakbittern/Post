@@ -37,7 +37,6 @@ class PostsController < ApplicationController
   
 
    def destroy
-    byebug
     @post = Post.find(params[:id])
     @post.destroy
  
